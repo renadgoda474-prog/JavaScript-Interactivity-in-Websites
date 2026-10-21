@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Example - Renad</title>
+</head>
+<body>
+  <h1>JavaScript Interactivity Example</h1>
+  <button id="welcomeButton">Click me</button>
+  <p id="message">Welcome!</p>
+  <script>
+    document.getElementById("welcomeButton").addEventListener("click", function () {
+      document.getElementById("message").textContent = "You clicked the button!";
+    });
+  </script>
+</body>
+</html>
